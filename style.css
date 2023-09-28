@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray; 
+}
+
+.grid-container{
+
+    width: 62.5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 6rem;
+}
+
+
+
+.grid-item1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    padding: 6rem;
+    padding-top: 3rem;
+
+
+    grid-column: 1 / 4;
+    grid-row: 1 / 7;
+    background-color: rgb(190, 216, 229);
+
+    background-image: url(family.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    background-size: 20rem;
+}
+
+
+.grid-item2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    grid-column: 4 / 7;
+    grid-row: 1 / 4;
+    background-color: rgb(255, 130, 72);
+}
+
+.grid-item3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    grid-column: 4 / 7;
+    grid-row: 4 / 7;
+    background-color: rgb(240, 181, 45);
+
+}
+
+.h-header{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.p-header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 4rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: rgb(41, 58, 74);
+}
+
+button{
+    width:9rem;
+    height: 2.6rem;
+    border-radius: 9rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: rgb(46, 55, 59);
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    justify-content: left;
+    align-items:first baseline;
+    box-shadow: 0rem 0.1rem rgb(148, 178, 204);
+}
+
+.p-1{
+
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: rgb(117, 60, 33);
+    
+}
+
+.p-2{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    color: rgb(123, 81, 26);
+}
+
+.h-1{
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.h-2{
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
